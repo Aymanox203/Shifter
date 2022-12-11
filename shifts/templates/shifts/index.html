@@ -1,5 +1,20 @@
 {% extends 'shifts/layout.html' %}
 {% block body %}
-    <h1>Home</h1>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'index.css' %}">
+    <div class="hero">
+        <div  class="hero-intro">
+            <h3>Welcome to shifter</h3>
+            <p>
+                We are the leading software for organising shifts and work arrangements 
+for all kinds of businesses, retail, restauration, human resources and more!
+with our different bundles you can find the plan that suits you best
+            </p>
+        </div>
+        <div>
+            <img>
+        </div>
+        <a href="{% url 'CreateArrangement' %}"><button type="button"><h2>Get started</h2></button ></a>
+    </div>
 {% endblock body %}
 

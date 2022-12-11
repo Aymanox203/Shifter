@@ -1,0 +1,13 @@
+.hero{
+    display: flex;
+    margin: 64px 128px;
+}
+.hero-intro{
+    align-items: left;
+    max-width: 50%;
+    padding-right: 64px;
+}
+button{
+    padding:16px 16px;
+
+}
